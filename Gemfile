@@ -16,6 +16,7 @@ gem 'puma'
 gem 'rails_12factor'
 
 group :development, :test do
+  gem 'letter_opener'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
@@ -23,6 +24,7 @@ end
 
 
 group :development do
+  gem 'rails_email_preview', '~> 0.2.29'
   gem 'faker'
   gem 'annotate'
   gem 'bullet'
